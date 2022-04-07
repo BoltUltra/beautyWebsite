@@ -19,9 +19,13 @@
 }
 
 .card-header {
-  @apply text-base font-bold;
+  @apply text-base font-bold text-primary;
 }
 
 .card-content {
-  @apply text-base leading-normal;
+  @apply text-sm leading-normal;
+}
+
+.section-headings {
+  @apply text-xl font-bold text-primary;
 }
