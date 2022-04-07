@@ -15,7 +15,7 @@
 }
 
 .service-card {
-  @apply space-y-5 text-center border-primary border rounded-lg px-4 py-5 flex flex-col items-center mx-5 shadow-xl;
+  @apply space-y-5 text-center border-primary border rounded-lg px-4 py-7 flex flex-col items-center mx-5 shadow-xl;
 }
 
 .card-header {
