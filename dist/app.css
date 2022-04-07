@@ -797,6 +797,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(66 103 178 / var(--tw-text-opacity));
 }
 
+.hover\:text-\[\#00acee\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 172 238 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#8a3ab9\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(138 58 185 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:visible {
     visibility: visible;
