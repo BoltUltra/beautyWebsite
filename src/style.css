@@ -29,3 +29,7 @@
 .section-headings {
   @apply text-xl font-bold text-primary;
 }
+
+.input {
+  @apply border border-primary w-full rounded-lg p-2 focus:outline-none;
+}
