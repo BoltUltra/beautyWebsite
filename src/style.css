@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mobile-nav {
+  @apply block py-2 mx-4 text-xs border-t border-t-primary pl-2;
+}

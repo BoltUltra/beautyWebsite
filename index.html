@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meerah Skinfood</title>
+	<link rel="shortcut icon" href="./assets/logo-icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="./dist/app.css">
+</head>
+
+<body>
+	<header class="sticky top-0 z-10">
+		<nav
+			class="bg-navbar md:shadow-lg flex justify-between items-center mx-auto px-2 md:px-14 py-3 pt-2 lg:px-24 w-full"
+			id="navbar">
+
+			<!-- Logo -->
+			<div class="uppercase font-semibold md:text-left text-center">
+				<a href="index.html"><img src="./assets/logo-full.png" alt="" class="md:inline hidden w-44"><img
+						src="./assets/logo-icon.png" alt="" class="md:hidden w-10"></a>
+			</div>
+
+			<!-- Hamburger Icon -->
+			<div class="md:hidden inline">
+				<button class="mobile-menu-button">
+					<svg class="w-7 h-7 ml-2 mt-1 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+						stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</button>
+			</div>
+
+			<!-- Navigation Links -->
+			<div class="hidden md:flex space-x-12 items-center">
+				<a href="#" class="active hover home-tab">Home</a>
+				<a href="#about" class="hover about-tab">About</a>
+				<a href="#service" class="hover service-tab">Service</a>
+				<a href="#gallery" class="hover gallery-tab">Gallery</a>
+				<a href="#blog" class="hover blog-tab">Blog</a>
+				<a href="#contact" class="hover contact-tab">Contact</a>
+			</div>
+
+		</nav>
+		<!-- Mobile menu -->
+		<div class="mobile-menu hidden md:hidden bg-navbar">
+			<a href="#about" class="mobile-nav">About</a>
+			<a href="#service" class="mobile-nav">Service</a>
+			<a href="#gallery" class="mobile-nav">Gallery</a>
+			<a href="#blog" class="mobile-nav">Blog</a>
+			<a href="#contact" class="mobile-nav bg-primary rounded text-white">Contact</a>
+		</div>
+	</header>
+
+
+
+
+
+
+
+	<script src="./script.js"></script>
+</body>
+
+</html>
