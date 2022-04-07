@@ -11,5 +11,17 @@
 }
 
 .nav {
-  @apply md:shadow-lg flex justify-between items-center mx-auto px-2 md:px-14 py-3 pt-2 lg:px-24 w-full;
+  @apply md:shadow-lg flex justify-between items-center mx-auto px-5 md:px-14 py-3 pt-2 lg:px-24 w-full bg-white;
+}
+
+.service-card {
+  @apply space-y-5 text-center border-primary border rounded-lg px-4 py-5 flex flex-col items-center mx-5 shadow-xl;
+}
+
+.card-header {
+  @apply text-base font-bold;
+}
+
+.card-content {
+  @apply text-base leading-normal;
 }
