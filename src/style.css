@@ -10,24 +10,28 @@
   @apply hover:border-b-2 hover:border-b-primary hover:transition-all hover:text-slate-400;
 }
 
+.nav-active {
+  @apply border-b-2 border-b-primary;
+}
+
 .nav {
   @apply md:shadow-lg flex justify-between items-center mx-auto px-5 md:px-14 py-3 pt-2 lg:px-24 w-full bg-white;
 }
 
 .service-card {
-  @apply space-y-5 text-center border-primary border rounded-lg px-4 py-7 flex flex-col items-center mx-5 shadow-xl;
+  @apply space-y-5 text-center border-primary border rounded-lg px-4 md:px-5 py-7 md:py-8 flex flex-col items-center mx-5 shadow-xl;
 }
 
 .card-header {
-  @apply text-base font-bold text-primary;
+  @apply text-base md:text-xl capitalize font-bold text-primary;
 }
 
 .card-content {
-  @apply text-sm leading-normal;
+  @apply text-sm leading-normal md:leading-relaxed;
 }
 
 .section-headings {
-  @apply text-xl font-bold text-primary;
+  @apply text-xl font-bold text-primary md:text-4xl;
 }
 
 .input {

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Meerah Skinfood</title>
+	<title>Meerah Skinfood | Home</title>
 	<link rel="shortcut icon" href="./assets/logo-icon.png" type="image/x-icon">
 	<link rel="stylesheet" href="./dist/app.css">
 	<link rel="stylesheet" href="./styles.css">
@@ -33,31 +33,28 @@
 
 			<!-- Navigation Links -->
 			<div class="hidden md:flex space-x-12 items-center">
-				<a href="#" class="active hover home-tab">Home</a>
-				<a href="#about" class="hover about-tab">About</a>
-				<a href="#service" class="hover service-tab">Service</a>
-				<a href="#gallery" class="hover gallery-tab">Gallery</a>
-				<a href="#blog" class="hover blog-tab">Blog</a>
-				<a href="#contact" class="hover contact-tab">Contact</a>
+				<a href="#" class="nav-active hover home-tab">Home</a>
+				<a href="/about.html" class="hover about-tab">About</a>
+				<a href="/services.html" class="hover service-tab">Service</a>
+				<a href="/contact.html" class="hover contact-tab">Contact</a>
 			</div>
 
 		</nav>
-		<!-- Mobile menu -->
+		<!-- Mobile menu Navigation Links -->
 		<div class="mobile-menu hidden md:hidden bg-white pb-5">
-			<a href="#about" class="mobile-nav">About</a>
-			<a href="#service" class="mobile-nav">Service</a>
-			<a href="#gallery" class="mobile-nav">Gallery</a>
-			<a href="#blog" class="mobile-nav">Blog</a>
-			<a href="#contact" class="mobile-nav bg-primary rounded text-white">Contact</a>
+			<a href="/about.html" class="mobile-nav">About</a>
+			<a href="/services.html" class="mobile-nav">Service</a>
+			<a href="/contact.html" class="mobile-nav bg-primary rounded text-white">Contact</a>
 		</div>
 	</header>
 
-	<main class="mx-5">
+	<main class="mx-5 md:mx-10">
 		<section class="mb-10">
 			<div class="md:grid md:grid-cols-2 flex flex-col">
-				<div class="text-center space-y-4 order-last md:order-1">
-					<h2 class="text-xl font-semibold text-primary">Meerah Skinfood</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi aliquid quia esse vero illo quo,
+				<div class="text-center space-y-4 order-last md:order-first md:pt-44 md:text-left">
+					<h2 class="text-xl md:text-6xl font-semibold text-primary">Meerah Skinfood</h2>
+					<p class="md:leading-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque animi aliquid quia
+						esse vero illo quo,
 						deserunt aut placeat dignissimos alias quae! Impedit vel perferendis, recusandae animi facere autem
 						assumenda?</p>
 				</div>
@@ -70,10 +67,10 @@
 		<section>
 			<div class="space-y-7 my-5">
 				<div class="text-center">
-					<h2 class="section-headings -mb-2">Our Focus services</h2>
-					<span class="text-xs">Lorem ipsum dolor sit amet.</span>
+					<h2 class="section-headings -mb-2 md:-mb-0">Our Focus services</h2>
+					<span class="text-xs md:text-sm">These are primary services</span>
 				</div>
-				<div class="md:grid md:grid-cols-3 md:space-y-0 gap-y-4 space-y-4">
+				<div class="md:grid md:grid-cols-3 gap-y-4 md:gap-x-14 md:space-y-0 space-y-4 md:mx-10">
 					<div class="service-card">
 						<img src="./assets/service.png" alt="" class="w-32">
 						<h3 class="card-header">Beauty consultation</h3>
@@ -123,7 +120,7 @@
 		</section>
 
 		<section class="my-5 py-5">
-			<div class="space-y-5">
+			<div class="space-y-5 md:grid md:grid-cols-2">
 				<div>
 					<img src="./assets/consultation.png" alt="">
 				</div>
@@ -144,38 +141,38 @@
 
 	<footer class="text-white bg-primary py-5">
 		<div class="mx-5 text-sm">
-			<div class="space-y-5 my-5">
-				<a href="#"><img src="./assets/logo-white.png" alt="" class="w-44"></a>
-				<ul class="space-y-2">
-					<li><i class="fas fa-location mr-1"></i> 100, Jane Doe Street</li>
-					<li><i class="fas fa-phone mr-1"></i> +234 123 4567 8901</li>
-					<li><i class="fas fa-envelope mr-1"></i> mail@example.com</li>
-				</ul>
-			</div>
-
-			<div class="my-5 space-y-2">
-				<h2 class="text-xl font-bold">Pages</h2>
-				<div class="space-y-2">
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>Home</a>
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>About</a>
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>Services</a>
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>Gallery</a>
+			<div class="md:grid md:grid-cols-3">
+				<div class="space-y-5 my-5">
+					<a href="#"><img src="./assets/logo-white.png" alt="" class="w-44"></a>
+					<ul class="space-y-2">
+						<li><i class="fas fa-location mr-1"></i> 100, Jane Doe Street</li>
+						<li><i class="fas fa-phone mr-1"></i> +234 123 4567 8901</li>
+						<li><i class="fas fa-envelope mr-1"></i> mail@example.com</li>
+					</ul>
 				</div>
-			</div>
 
-			<div class="my-5 space-y-2">
-				<h2 class="text-xl font-bold">Infomation</h2>
-				<div class="space-y-2">
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>Blog</a>
-					<a href="#" class="block"><i class="fas fa-chevron-right mr-1"></i>Contact</a>
+				<div class="my-5 space-y-2">
+					<h2 class="text-xl font-bold">Pages</h2>
+					<div class="space-y-2">
+						<a href="/index.html" class="block"><i class="fas fa-chevron-right mr-1"></i>Home</a>
+						<a href="/about.html" class="block"><i class="fas fa-chevron-right mr-1"></i>About</a>
+						<a href="/services.html" class="block"><i class="fas fa-chevron-right mr-1"></i>Services</a>
+					</div>
 				</div>
-			</div>
 
-			<div class="my-10 text-center space-x-5">
-				<a href="#" class=""><i class="fab fa-facebook fa-xl"></i></a>
-				<a href="#" class=""><i class="fab fa-twitter fa-xl"></i></a>
-				<a href="#" class=""><i class="fab fa-whatsapp fa-xl"></i></a>
-				<a href="#" class=""><i class="fab fa-instagram fa-xl"></i></a>
+				<div class="my-5 space-y-2">
+					<h2 class="text-xl font-bold">Infomation</h2>
+					<div class="space-y-2">
+						<a href="/contact.html" class="block"><i class="fas fa-chevron-right mr-1"></i>Contact</a>
+					</div>
+					<div class="my-10 text-center md:text-left space-x-5 md:pt-5">
+						<a href="#" class=""><i class="fab fa-facebook fa-xl"></i></a>
+						<a href="#" class=""><i class="fab fa-twitter fa-xl"></i></a>
+						<a href="#" class=""><i class="fab fa-whatsapp fa-xl"></i></a>
+						<a href="#" class=""><i class="fab fa-instagram fa-xl"></i></a>
+					</div>
+				</div>
+
 			</div>
 
 			<p class="text-xs text-center"> &copy; Meerah Skinfood 2022 - All right reserved.</p>
