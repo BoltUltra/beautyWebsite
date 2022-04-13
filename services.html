@@ -10,6 +10,23 @@
 	<link rel="stylesheet" href="./dist/app.css">
 	<link rel="stylesheet" href="./styles.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- Tailwind Elements -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						sans: ['Inter', 'sans-serif'],
+					},
+				}
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -48,53 +65,59 @@
 		</div>
 	</header>
 
-	<main class="mx-5">
+	<main class="mx-5 my-10">
 		<section class="">
 			<div class="text-center space-y-1">
-				<h4 class="text-sm">Our Services</h4>
-				<h2 class="text-xl text-primary font-bold">We focus on your beauty</h2>
-				<p class="text-xs">You are our top priority</p>
+				<h4 class="text-sm md:text-base">Our Services</h4>
+				<h2 class="text-xl md:text-3xl text-primary font-bold">We focus on your beauty</h2>
+				<p class="text-xs md:text-base">You are our top priority</p>
 			</div>
 
 			<div class="flex flex-col mt-10 mx-7 md:mx-40">
-				<div class="border-b border-b-primary pb-3 mb-3 md:grid md:grid-cols-2">
+				<div class="border-b border-b-primary md:border-none pb-3 mb-3 md:grid md:grid-cols-2">
 					<div class="">
-						<img src="./assets/services.png" alt="" class="w-1/2">
+						<img src="./assets/consult.png" alt="" class="w-1/2">
 					</div>
-					<div class="space-y-2">
-						<h3 class="text-lg font-semibold text-primary">Beauty Consultation</h3>
-						<h2 class="text-xl font-semibold">We offer Beauty Consultation Services</h2>
-						<p class="text-xs font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quia ipsum
-							vero
-							eum modi minus, veritatis deserunt vel voluptas sapiente?</p>
+					<div class="space-y-2 md:space-y-3 md:pt-12">
+						<h3 class="text-lg font-semibold text-primary md:text-xl">Beauty Consultation</h3>
+						<h2 class="text-xl font-semibold md:text-2xl">We offer Beauty Consultation Services</h2>
+						<p class="text-xs font-light md:text-base md:pb-3">We use our expert knowledge of cosmetics and skincare
+							products to assist our customers with finding products to meet their skin care needs</p>
 						<a href="/contact.html" class="text-xs font-semibold mt-3">Make an appointment <span class="text-primary"><i
 									class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></span></a>
 					</div>
 				</div>
-				<div class="border-b border-b-primary pb-3 mb-3">
-					<div class="">
-						<img src="./assets/services.png" alt="" class="w-1/2">
+				<div class="border-b border-b-primary md:border-none pb-3 mb-3 md:grid md:grid-cols-2">
+					<div class="md:order-last">
+						<img src="./assets/skincare.png" alt="" class="w-1/2 md:ml-[50%]">
 					</div>
-					<div class="space-y-2">
-						<h3 class="text-lg font-semibold text-primary">Beauty Consultation</h3>
-						<h2 class="text-xl font-semibold">We offer Beauty Consultation Services</h2>
-						<p class="text-xs font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quia ipsum
-							vero
-							eum modi minus, veritatis deserunt vel voluptas sapiente?</p>
+					<div class="space-y-2 md:space-y-3 md:pt-12">
+						<h3 class="text-lg font-semibold text-primary md:text-xl">Skin Treatments</h3>
+						<h2 class="text-xl font-semibold md:text-2xl">Skin care and treatment by expert</h2>
+						<p class="text-xs font-light md:text-base md:pb-3">We offer top notch service that ranges from fade skin
+							discoloration and get clear
+							skin free from Acne, sunburn, eczema, psoriasis and other skin irritations</p>
 						<a href="/contact.html" class="text-xs font-semibold mt-3">Make an appointment <span class="text-primary"><i
 									class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></span></a>
 					</div>
 				</div>
-				<div class="border-b border-b-primary pb-3 mb-3">
+				<div class="border-b border-b-primary md:border-none pb-3 mb-3 md:grid md:grid-cols-2">
 					<div class="">
-						<img src="./assets/services.png" alt="" class="w-1/2">
+						<img src="./assets/skincaree.png" alt="" class="w-1/2">
 					</div>
-					<div class="space-y-2">
-						<h3 class="text-lg font-semibold text-primary">Beauty Consultation</h3>
-						<h2 class="text-xl font-semibold">We offer Beauty Consultation Services</h2>
-						<p class="text-xs font-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quia ipsum
-							vero
-							eum modi minus, veritatis deserunt vel voluptas sapiente?</p>
+					<div class="space-y-2 md:space-y-3 md:pt-12">
+						<h3 class="text-lg font-semibold text-primary md:text-xl">Beauty Products</h3>
+						<h2 class="text-xl font-semibold md:text-2xl">We present quality beauty products</h2>
+						<p class="text-xs font-light md:text-base md:pb-3 text-justify">• Herbal Soaps
+							• Nourishing Creams
+							• Scrubs
+							• Face Treatment
+							• Face Cream
+							• All Natural Oils
+							• Face Toners
+							• Hair Products
+							• Baby Care
+							• Men Grooming Products </p>
 						<a href="/contact.html" class="text-xs font-semibold mt-3">Make an appointment <span class="text-primary"><i
 									class="fas fa-chevron-right"></i><i class="fas fa-chevron-right"></i></span></a>
 					</div>
@@ -102,8 +125,67 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="md:mx-48">
 			<h3>Services FAQ's</h3>
+			<div class="accordion rounded-none" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header mb-0" id="headingOne">
+						<button class="accordion-button accordion-heading" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							What products can you recommend for Oily skin?
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body accordion-content">
+							<strong>This is the first item's accordion body.</strong> It is shown by default,
+							until the collapse plugin adds the appropriate classes that we use to style each
+							element. These classes control the overall appearance, as well as the showing and
+							hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+							our default variables. It's also worth noting that just about any HTML can go within
+							the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header mb-0" id="headingTwo">
+						<button class="accordion-button collapsed accordion-heading" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							What products can you recommend for dry skin type?
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body accordion-content">
+							<strong>This is the second item's accordion body.</strong> It is hidden by default,
+							until the collapse plugin adds the appropriate classes that we use to style each
+							element. These classes control the overall appearance, as well as the showing and
+							hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+							our default variables. It's also worth noting that just about any HTML can go within
+							the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header mb-0" id="headingThree">
+						<button class="accordion-button collapsed accordion-heading" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							Are there any side effects to the treatment methods or treatments with your products?
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body accordion-content">
+							<strong>This is the third item's accordion body.</strong> It is hidden by default,
+							until the collapse plugin adds the appropriate classes that we use to style each
+							element. These classes control the overall appearance, as well as the showing and
+							hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+							our default variables. It's also worth noting that just about any HTML can go within
+							the <code>.accordion-body</code>, though the transition does limit overflow.
+						</div>
+					</div>
+				</div>
+			</div>
 
 		</section>
 	</main>
@@ -156,6 +238,7 @@
 
 
 	<script src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </body>
 
 </html>
