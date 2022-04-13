@@ -27,6 +27,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
+        sans: ['Inter', 'sans-serif'],
       },
       colors: {
         background: "#E5E5E5",
