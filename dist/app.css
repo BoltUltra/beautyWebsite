@@ -561,6 +561,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 0px;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1207,6 +1211,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:leading-normal {
     line-height: 1.5;
+  }
+
+  .md\:leading-loose {
+    line-height: 2;
   }
 
   .md\:text-primary {
